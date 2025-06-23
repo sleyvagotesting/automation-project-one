@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.FinishTest">
+      <class name="com.automation.selenium.tests.PruebaApi">
         <methods>
-          <include name="testOrdenCompleta"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="testGetUsers"/>
         </methods>
-      </class> <!-- Tests.FinishTest -->
+      </class> <!-- com.automation.selenium.tests.PruebaApi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
